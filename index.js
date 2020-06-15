@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.send(JSON.stringify(well.getValues()));
 });
 
-app.listen(3000, () => console.log('Gator app listening on port 3000!'));
+app.listen(3000, () => console.log('App listening on port 3000!'));
