@@ -1,0 +1,15 @@
+{
+  "name": "well-level",
+  "version": "1.0.0",
+  "description": "Service to fetch well water level",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rémi Testa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "onoff": "^6.0.0"
+  }
+}
