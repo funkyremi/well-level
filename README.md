@@ -4,7 +4,9 @@ Well water level as an API ⛲️.
 
 ## Hardware
 
-I used a Raspberry Pi Zero WH and 4 Float Sensor Switches.
+* Raspberry Pi Zero WH
+* 4 Float Sensor Switches
+* A bar to hold the sensors
 
 ## Configuration
 
