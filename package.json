@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Service to fetch well water level",
   "main": "index.js",
+  "repository": "https://github.com/funkyremi/well-level",
   "scripts": {
     "start": "nodemon index.js"
   },
   "author": "Rémi Testa",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "onoff": "^6.0.0"
