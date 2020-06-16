@@ -1,6 +1,6 @@
 # Well Level
 
-Project to check well water level.
+Well water level as an API ⛲️.
 
 ## Hardware
 
