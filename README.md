@@ -20,7 +20,7 @@ Edit the GPIO pins in `well.js`.
 
 You can get the water level by fetching `http://<DEVICE_IP>:3000/`.
 
-Here's the result you get:
+Here's the result you'll get:
 
 ```json
 {
