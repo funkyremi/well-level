@@ -22,10 +22,10 @@ Here's the result you get:
 
 ```json
 {
-    levelLow: 1,
-    levelMiddle: 1,
-    levelHigh: 0,
-    levelFlood: 0
+    "levelLow": 1,
+    "levelMiddle": 1,
+    "levelHigh": 0,
+    "levelFlood": 0
 }
 ```
 
