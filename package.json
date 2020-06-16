@@ -4,12 +4,15 @@
   "description": "Service to fetch well water level",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Rémi Testa",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "onoff": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
