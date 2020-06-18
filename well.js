@@ -3,10 +3,10 @@ const Gpio = require("onoff").Gpio;
 class Well {
   constructor() {
     // Listen to GPIO
-    const levelLowSensor = new Gpio(4, "in", "both");       // Edit the GPIO pin
-    const levelMiddleSensor = new Gpio(5, "in", "both");    // Edit the GPIO pin
-    const levelHighSensor = new Gpio(6, "in", "both");      // Edit the GPIO pin
-    const levelFloodSensor = new Gpio(7, "in", "both");     // Edit the GPIO pin
+    const levelLowSensor = new Gpio(17, "in", "both");       // Edit the GPIO pin
+    const levelMiddleSensor = new Gpio(27, "in", "both");    // Edit the GPIO pin
+    const levelHighSensor = new Gpio(22, "in", "both");      // Edit the GPIO pin
+    const levelFloodSensor = new Gpio(23, "in", "both");     // Edit the GPIO pin
 
     // Init values
     this.levelLow = 0;

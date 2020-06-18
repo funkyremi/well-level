@@ -14,7 +14,7 @@ Edit the GPIO pins in `well.js`.
 
 ## Start the service
 
-`docker-compose up -d`
+`npm start`
 
 ## Fetch the API
 
@@ -35,5 +35,5 @@ Here's the result you'll get:
 
 ```
 npm install
-npm start
+npm run dev
 ```
