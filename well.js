@@ -9,10 +9,10 @@ class Well {
     const levelFloodSensor = new Gpio(23, "in", "both");     // Edit the GPIO pin
 
     // Init values
-    this.levelLow = 0;
-    this.levelMiddle = 0;
-    this.levelHigh = 0;
-    this.levelFlood = 0;
+    this.levelLow = levelLowSensor.readSync();
+    this.levelMiddle = levelMiddleSensor.readSync();
+    this.levelHigh = levelHighSensor.readSync();
+    this.levelFlood = levelFloodSensor.readSync();
 
     // Watch sensor level changes
     levelLowSensor.watch((err, value) => {
