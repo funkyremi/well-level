@@ -19,24 +19,28 @@ class Well {
       if (err) {
         console.error(err);
       }
+      console.log('Low level', value);
       this.levelLow = value;
     });
     levelMiddleSensor.watch((err, value) => {
       if (err) {
         console.error(err);
       }
+      console.log('Middle level', value);
       this.levelMiddle = value;
     });
     levelHighSensor.watch((err, value) => {
       if (err) {
         console.error(err);
       }
+      console.log('High level', value);
       this.levelHigh = value;
     });
     levelFloodSensor.watch((err, value) => {
       if (err) {
         console.error(err);
       }
+      console.log('Flood level', value);
       this.levelFlood = value;
     });
 
