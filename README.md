@@ -37,3 +37,9 @@ Here's the result you'll get:
 npm install
 npm run dev
 ```
+
+## Pictures
+
+<img src="img/product.jpg" width="50%">
+
+<img src="img/raspberry.jpg" width="50%">
